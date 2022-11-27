@@ -18,6 +18,6 @@ namespace ConsoleApp1.Interface
         Boolean Insert(T t);
         Boolean Update(T t);
         Boolean Delete(T t);
-        T List(long cpf);
+        T Consultar(long cpf);
     }
 }

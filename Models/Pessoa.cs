@@ -11,7 +11,7 @@ internal class Pessoa
 {
     public int IdPessoa { get; set; }
     public string Nome { get; set; }
-    public string Cpf { get; set; }
+    public long Cpf { get; set; }
     public Endereco endereco { get; set; }
     public Telefone[] telefones { get; set; }
 
